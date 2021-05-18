@@ -1,0 +1,79 @@
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+  
+header {
+  height: 90px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.header-left {
+  font-size: 36px;
+  line-height: 90px;
+  color: white;
+}
+.top-wrapper {
+  text-align: center;
+  height: 100px;
+} 
+.top-wrapper h1 {
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: rgba(34, 49, 52, 0.9)
+}
+footer {
+  height: 150px;
+  background-color: #2a2b2a;
+}
+.footer-logo {
+  font-size: 32px;
+  color: whitesmoke;
+  padding-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+.menu-container {
+  display: flex;
+}
+.menu-column {
+  flex: auto;
+}
+.li1 {
+  background-color: #ffc562;
+}
+.li2 {
+  background-color: #a0c3f7;
+}
+.li3 {
+  background-color: #ff8db3;
+}
+
+@media (max-width: 1000px) {
+  .menu-container {
+    flex-wrap: wrap;
+  }
+  .menu-column {
+    width: 33%;
+  }
+}
+
+/* スマホ向けレイアウト */
+/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
+@media (max-width: 670px) {
+  /* .flex-listにflex-directionを指定してください */
+  .menu-container {
+    flex-direction: column;
+  }
+  /* .flex-list liにmarginを0 autoに指定してください */
+  .menu-column {
+    margin: 0 auto;
+  }
+  
+}

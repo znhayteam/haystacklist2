@@ -1,0 +1,95 @@
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+header {
+  height: 90px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+.header-left {
+  font-size: 36px;
+  line-height: 90px;
+  color: white;
+}
+
+.top-wrapper span{
+  color: red;
+}
+.top-wrapper h1 {
+  font-size: 100px;
+  margin-bottom: 0px;
+}
+.top-wrapper h2 {
+  font-size: 70px;
+  margin-top: 0px;
+}
+.supplier-wrapper {
+  height: 300px;
+}
+.title {
+  border-bottom: solid 2px #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  color: #545554;
+}
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn {
+  font-size: 35px;
+  letter-spacing: 3px;
+  border-radius: 30px;
+  border: solid 5px white;
+  padding: 8px 30px;
+  opacity: 0.8;
+  box-shadow: 0 7px #2a2b2a;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  opacity: 1;
+}
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.zhi {
+  background-color: red;
+}
+.weco {
+  background-color: orange;}
+.ph {
+  background-color: rgb(32, 168, 32);
+}
+.bvt {
+  background-image: linear-gradient(-45deg, rgb(216, 91, 18) 0%, #025506 50%, #025506 50%, #025506 100%);
+}
+.elt {
+  background-color: rgb(0, 60, 255);
+}
+.hk {
+  background-color: green;
+}
+footer {
+  height: 150px;
+  background-color: #2a2b2a;
+}
+.message-wrapper {
+  height: 200px;
+}
+.footer-logo {
+  font-size: 32px;
+  color: whitesmoke;
+  padding-top: 20px;
+}
